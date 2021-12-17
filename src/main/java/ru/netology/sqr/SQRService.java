@@ -8,7 +8,7 @@ public class SQRService {
             if (i * i >= lowBorder && i * i <= topBorder) {
                 counter++;
             }
-           }
+        }
         return counter;
     }
 }
